@@ -1,10 +1,11 @@
 # opsdroid skill hello
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to run the
+"where_is" script, and give you the output in return.
 
 ## Requirements
 
-None.
+You need "where_is" in the opsdroid bot's path.
 
 ## Configuration
 
@@ -12,18 +13,11 @@ None.
 
 ## Usage
 
-#### `hello`
+#### `where_is MAC`
 
-Says hello to the user.
+Runs the where_is script with the MAC address
 
-> user: hello
+> user: where_is 00:11:22:33:44:55
 >
-> opsdroid: Hi user
+> opsdroid: on switch-blah port ge-0/2/4
 
-#### `goodbye`
-
-Says goodbye to the user.
-
-> user: bye
->
-> opsdroid: Bye user
