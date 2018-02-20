@@ -1,4 +1,4 @@
-# opsdroid skill hello
+# opsdroid skill where_is
 
 A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to run the
 "where_is" script, and give you the output in return.
