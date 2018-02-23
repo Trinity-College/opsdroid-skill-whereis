@@ -2,6 +2,8 @@ from opsdroid.matchers import match_regex
 import logging
 import random
 
+from subprocess import PIPE
+
 def setup(opsdroid):
     logging.debug("Loaded where_is module")
 
